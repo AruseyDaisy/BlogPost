@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog_post", "Blog_post\Blog_post.csproj", "{F29E6EC0-8CF3-4F93-BD14-96BE7628688F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog_post", "Blog_post\Blog_post.csproj", "{F29E6EC0-8CF3-4F93-BD14-96BE7628688F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog_post_API", "Blog_post_API\Blog_post_API.csproj", "{DADC4DA7-8D26-47C7-A3D5-8FE26EC75D37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog_post_API", "Blog_post_API\Blog_post_API.csproj", "{DADC4DA7-8D26-47C7-A3D5-8FE26EC75D37}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedBlog", "SharedBlog\SharedBlog.shproj", "{134F5F48-1397-4C42-BAFD-6876CF19F10D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D7215CF-AF0C-4801-BDDD-50B68E4E75A1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,5 +34,10 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85B90481-DD7A-4520-9E36-4757BCD6CE51}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedBlog\SharedBlog.projitems*{134f5f48-1397-4c42-bafd-6876cf19f10d}*SharedItemsImports = 13
+		SharedBlog\SharedBlog.projitems*{dadc4da7-8d26-47c7-a3d5-8fe26ec75d37}*SharedItemsImports = 5
+		SharedBlog\SharedBlog.projitems*{f29e6ec0-8cf3-4f93-bd14-96be7628688f}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
